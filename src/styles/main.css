@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #fc1e8a;
+    background-color: #1b1b1b;
     user-select: none;
 }
 
@@ -14,13 +14,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: linear-gradient(325deg, #03001e 0%, #7303c0 30%, #ec38bc 70%, #fdeff9 100%);
+    background: linear-gradient(325deg, #00031e 0%, #00a2ff 30%, rgb(0, 255, 128) 70%, #fdeff9 100%);
     padding: 40px 60px;
 }
 
 h2{
     font-size: 3em;
-    color: #fff;
+    color: #e70909f8;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -28,7 +28,7 @@ h2{
 .reset {
     padding: 15px 20px;
     width: 100%;
-    color: #000;
+    color: #df3232;
     background-color: #fff;
     border: none;
     font-size: 1.5em;
@@ -71,7 +71,7 @@ h2{
     content: "";
     position: absolute;
     inset: 0;
-    background: #404040;
+    background: #401b97;
     /* opacity: 0.85; */
     transition: 0.25s;
     transform: rotateY(0deg);
